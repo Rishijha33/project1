@@ -1,0 +1,269 @@
+body{
+    background-color:silver;
+    margin: 0;
+    
+}
+
+
+
+#Heading {
+    font-family: cursive;
+    padding-left:22px;
+    padding-right: 10px ;   
+    background-color: white;
+    
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+#nav-left{
+    height: 100%;
+}
+
+
+#nav-left ul{
+    background-color: white;
+    list-style-type: none;
+    padding-left:35px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+   
+   
+   
+    
+}
+
+#nav-left li{
+    padding:10px;
+    margin-right: 25px;
+}
+
+#nav-left a{
+   font-size: 20px; 
+   color: black;
+   text-decoration: none;
+
+}
+
+#nav-left a:hover{
+    border-radius: 5px;
+    background-color:dodgerblue;
+    padding: 10px ;
+ 
+ }
+ #pages{
+     color: gray;
+     border-style: solid;
+     border-top: black;
+     border-left: black;
+     border-right: black;
+     padding: 5px;
+     margin-top: 15px;
+     margin-bottom: 10px;
+ }
+
+ #nav-top{
+    position:absolute;
+    left: 166px;
+    background-color: white;
+    padding: 20px;
+    width: 1313px;
+    
+ }
+/*Three lines */
+ #menu{
+     width: 25px;
+     height: 2px;
+     margin-left: 10px;
+     background-color: black;
+     margin: 6px 0;
+ }
+
+ #nav-top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+ 
+ #nav-top li {
+     padding-right: 10px;
+    float: left;
+  }
+
+
+  #search{
+      width: 500px;
+      height: 30px;
+      margin-left: 10px;
+      padding-left: 10px;
+      border: solid gray;
+      border-radius: 50px;
+      
+  }
+
+  #notifi{
+      position: absolute;
+      left: 969px;
+      width: 45px;
+      height: 30px;
+      margin-top: 5px ;
+  }
+
+  #flag{
+      position: absolute;
+      left: 1029px;
+      height: 50px;
+      width: 80px;
+      border-radius: 10px;
+      margin-top: 0px;
+
+  }
+      
+  #lang{
+      position: absolute;
+      left: 1099px;
+      height: 30px;
+      margin-top: 7px;
+  }
+
+  #profile{
+      position: absolute;
+      left: 1200px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+  }
+
+#name{
+    position: absolute;
+    left:1270px ;
+}
+
+#cal{
+    position: absolute;
+    top: 90px;
+    left: 240px;
+}
+
+#box{
+    position: absolute;
+    top: 180px;
+    left: 240px;
+    background-color: white;
+    border: solid white;
+    border-radius: 10px;
+}
+
+#box ul{
+    list-style: none;
+    
+}
+#box li{
+    padding: 10px;
+}
+#event{
+    font-size: large;
+    background-color: dodgerblue;
+    color: white;
+    position: relative;
+    right: 20px;
+    height: 50px;
+    width: 250px;
+    border: solid dodgerblue;
+    border-radius: 10px;
+}
+.Calender{
+    position: absolute;
+    top: 180px;
+    left: 580px;
+    background-color: white;
+    width: 900px;
+    height: 86%;
+    border: solid white;
+    border-radius: 10px;
+}
+.Calender ul{
+   list-style: none;
+}
+
+.month {
+    position: relative;
+    left: 55px;
+    padding: 70px 25px;
+    width: 80%;
+    background: white;
+    text-align: center;
+  }
+
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .month ul li {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+
+  .weekdays {
+    position: relative;
+    margin: 0;
+    left: 75px;
+    width: 80%;
+    padding: 10px 0;
+    background-color:silver;
+    border: solid white;
+    border-radius: 10px;
+  }
+
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+
+  .days {
+    position: relative;
+    left: 40px;
+    width: 80%;
+    height: 60%;
+    margin-left: -10px;
+    background: white;
+    margin: 0;
+    border: solid white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .days li {
+    display: inline-block;
+    border: solid gray;
+    width: 11.9%;
+    height: 17%;
+    text-align:  right;
+    margin-bottom:-1px;
+    margin-right: -5px;
+    font-size:20px;
+    color: #777;
+    
+  }
+  
